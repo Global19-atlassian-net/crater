@@ -7,17 +7,9 @@
     {
       "name": "error crates",
       "path": "logs-archives/error.tar.gz"
-    },
-    {
-      "name": "broken crates",
-      "path": "logs-archives/broken.tar.gz"
-    },
-    {
-      "name": "build-fail crates",
-      "path": "logs-archives/build-fail.tar.gz"
     }
   ],
-  "crates_count": 17,
+  "crates_count": 2,
   "nav": [
     {
       "active": false,

@@ -44,7 +44,7 @@ minicrater! {
 
     doc_small {
         ex: "doc",
-        crate_select: "local",
+        crate_select: "demo",
         mode: "rustdoc",
         ..Default::default()
     },
