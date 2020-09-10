@@ -23,15 +23,15 @@
         "Local": "memory-hungry"
       },
       "name": "memory-hungry (local)",
-      "res": "test-pass",
+      "res": "spurious-fixed",
       "runs": [
         {
           "log": "stable/local/memory-hungry",
-          "res": "test-pass"
+          "res": "build-fail:oom"
         },
         {
           "log": "beta/local/memory-hungry",
-          "res": "test-pass"
+          "res": "test-fail:oom"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/memory-hungry"
