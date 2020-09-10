@@ -359,7 +359,7 @@ pub(super) fn test_rustdoc<DB: WriteResults>(
     let cargo_args = metadata.cargo_args();
     assert_eq!(cargo_args[0], "doc");
     let mut cargo_args: Vec<_> = cargo_args.iter().map(|s| s.as_str()).collect();
-    cargo_args.push("frozen");
+    cargo_args.push("--frozen");
     cargo_args.push("--message-format=json");
 
     let res = run_cargo(

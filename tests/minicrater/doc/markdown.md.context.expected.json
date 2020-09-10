@@ -1,0 +1,270 @@
+{
+  "categories": [
+    [
+      "error",
+      {
+        "Plain": [
+          {
+            "krate": {
+              "Local": "beta-faulty-deps"
+            },
+            "name": "beta-faulty-deps (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/beta-faulty-deps",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/beta-faulty-deps",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/beta-faulty-deps"
+          },
+          {
+            "krate": {
+              "Local": "beta-fixed"
+            },
+            "name": "beta-fixed (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/beta-fixed",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/beta-fixed",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/beta-fixed"
+          },
+          {
+            "krate": {
+              "Local": "beta-regression"
+            },
+            "name": "beta-regression (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/beta-regression",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/beta-regression",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/beta-regression"
+          },
+          {
+            "krate": {
+              "Local": "build-fail"
+            },
+            "name": "build-fail (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/build-fail",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/build-fail",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/build-fail"
+          },
+          {
+            "krate": {
+              "Local": "build-pass"
+            },
+            "name": "build-pass (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/build-pass",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/build-pass",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/build-pass"
+          },
+          {
+            "krate": {
+              "Local": "clippy-warn"
+            },
+            "name": "clippy-warn (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/clippy-warn",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/clippy-warn",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/clippy-warn"
+          },
+          {
+            "krate": {
+              "Local": "docs-rs-features"
+            },
+            "name": "docs-rs-features (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/docs-rs-features",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/docs-rs-features",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/docs-rs-features"
+          },
+          {
+            "krate": {
+              "Local": "faulty-deps"
+            },
+            "name": "faulty-deps (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/faulty-deps",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/faulty-deps",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/faulty-deps"
+          },
+          {
+            "krate": {
+              "Local": "ice-regression"
+            },
+            "name": "ice-regression (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/ice-regression",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/ice-regression",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/ice-regression"
+          },
+          {
+            "krate": {
+              "Local": "memory-hungry"
+            },
+            "name": "memory-hungry (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/memory-hungry",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/memory-hungry",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/memory-hungry"
+          },
+          {
+            "krate": {
+              "Local": "missing-examples"
+            },
+            "name": "missing-examples (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/missing-examples",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/missing-examples",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/missing-examples"
+          },
+          {
+            "krate": {
+              "Local": "network-access"
+            },
+            "name": "network-access (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/network-access",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/network-access",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/network-access"
+          },
+          {
+            "krate": {
+              "Local": "outdated-lockfile"
+            },
+            "name": "outdated-lockfile (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/outdated-lockfile",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/outdated-lockfile",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/outdated-lockfile"
+          },
+          {
+            "krate": {
+              "Local": "test-fail"
+            },
+            "name": "test-fail (local)",
+            "res": "error",
+            "runs": [
+              {
+                "log": "stable/local/test-fail",
+                "res": "error"
+              },
+              {
+                "log": "beta/local/test-fail",
+                "res": "error"
+              }
+            ],
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/test-fail"
+          }
+        ]
+      }
+    ]
+  ],
+  "crates_count": 17,
+  "full": false,
+  "info": {
+    "broken": 2,
+    "build-fail": 1,
+    "error": 14
+  }
+}

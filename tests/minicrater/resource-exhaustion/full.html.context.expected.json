@@ -18,25 +18,18 @@
               }
             ],
             "url": "https://github.com/rust-lang/crater/tree/master/local-crates/build-pass"
-          }
-        ]
-      }
-    ],
-    [
-      "spurious-fixed",
-      {
-        "Plain": [
+          },
           {
             "name": "memory-hungry (local)",
-            "res": "spurious-fixed",
+            "res": "test-pass",
             "runs": [
               {
                 "log": "stable/local/memory-hungry",
-                "res": 1
+                "res": 0
               },
               {
                 "log": "beta/local/memory-hungry",
-                "res": 2
+                "res": 0
               }
             ],
             "url": "https://github.com/rust-lang/crater/tree/master/local-crates/memory-hungry"
@@ -46,12 +39,6 @@
     ]
   ],
   "comparison_colors": {
-    "spurious-fixed": {
-      "Striped": [
-        "#5630db",
-        "#5d3dcf"
-      ]
-    },
     "test-pass": {
       "Single": "#72a156"
     }
@@ -59,8 +46,7 @@
   "crates_count": 2,
   "full": true,
   "info": {
-    "spurious-fixed": 1,
-    "test-pass": 1
+    "test-pass": 2
   },
   "nav": [
     {
@@ -82,17 +68,9 @@
   "result_colors": [
     {
       "Single": "#62a156"
-    },
-    {
-      "Single": "#db3026"
-    },
-    {
-      "Single": "#65461e"
     }
   ],
   "result_names": [
-    "test passed",
-    "build OOM",
-    "test OOM"
+    "test passed"
   ]
 }

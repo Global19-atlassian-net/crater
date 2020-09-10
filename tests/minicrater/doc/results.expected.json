@@ -5,15 +5,15 @@
         "Local": "beta-faulty-deps"
       },
       "name": "beta-faulty-deps (local)",
-      "res": "regressed",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/beta-faulty-deps",
-          "res": "test-pass"
+          "res": "error"
         },
         {
           "log": "beta/local/beta-faulty-deps",
-          "res": "build-fail:depends-on(gh/rust-lang/crater/f190933e896443e285e3bb6962fb87d7439b8d65)"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/beta-faulty-deps"
@@ -23,15 +23,15 @@
         "Local": "beta-fixed"
       },
       "name": "beta-fixed (local)",
-      "res": "fixed",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/beta-fixed",
-          "res": "build-fail:unknown"
+          "res": "error"
         },
         {
           "log": "beta/local/beta-fixed",
-          "res": "test-pass"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/beta-fixed"
@@ -41,15 +41,15 @@
         "Local": "beta-regression"
       },
       "name": "beta-regression (local)",
-      "res": "regressed",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/beta-regression",
-          "res": "test-pass"
+          "res": "error"
         },
         {
           "log": "beta/local/beta-regression",
-          "res": "build-fail:unknown"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/beta-regression"
@@ -77,15 +77,15 @@
         "Local": "build-fail"
       },
       "name": "build-fail (local)",
-      "res": "build-fail",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/build-fail",
-          "res": "build-fail:unknown"
+          "res": "error"
         },
         {
           "log": "beta/local/build-fail",
-          "res": "build-fail:unknown"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/build-fail"
@@ -95,15 +95,15 @@
         "Local": "build-pass"
       },
       "name": "build-pass (local)",
-      "res": "test-pass",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/build-pass",
-          "res": "test-pass"
+          "res": "error"
         },
         {
           "log": "beta/local/build-pass",
-          "res": "test-pass"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/build-pass"
@@ -113,15 +113,15 @@
         "Local": "clippy-warn"
       },
       "name": "clippy-warn (local)",
-      "res": "test-pass",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/clippy-warn",
-          "res": "test-pass"
+          "res": "error"
         },
         {
           "log": "beta/local/clippy-warn",
-          "res": "test-pass"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/clippy-warn"
@@ -131,15 +131,15 @@
         "Local": "docs-rs-features"
       },
       "name": "docs-rs-features (local)",
-      "res": "test-pass",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/docs-rs-features",
-          "res": "test-pass"
+          "res": "error"
         },
         {
           "log": "beta/local/docs-rs-features",
-          "res": "test-pass"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/docs-rs-features"
@@ -149,15 +149,15 @@
         "Local": "error-code"
       },
       "name": "error-code (local)",
-      "res": "regressed",
+      "res": "build-fail",
       "runs": [
         {
           "log": "stable/local/error-code",
-          "res": "test-pass"
+          "res": "build-fail:unknown"
         },
         {
           "log": "beta/local/error-code",
-          "res": "build-fail:compiler-error(E0013, E0015)"
+          "res": "build-fail:unknown"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/error-code"
@@ -167,15 +167,15 @@
         "Local": "faulty-deps"
       },
       "name": "faulty-deps (local)",
-      "res": "build-fail",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/faulty-deps",
-          "res": "build-fail:depends-on(reg/lazy_static/0.1.0, gh/rust-lang/crater/c3f462bdab37a93c24b2b172b90564749e892cbc)"
+          "res": "error"
         },
         {
           "log": "beta/local/faulty-deps",
-          "res": "build-fail:depends-on(reg/lazy_static/0.1.0, gh/rust-lang/crater/c3f462bdab37a93c24b2b172b90564749e892cbc)"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/faulty-deps"
@@ -185,15 +185,15 @@
         "Local": "ice-regression"
       },
       "name": "ice-regression (local)",
-      "res": "regressed",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/ice-regression",
-          "res": "build-fail:compiler-error(E0425)"
+          "res": "error"
         },
         {
           "log": "beta/local/ice-regression",
-          "res": "build-fail:ice"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/ice-regression"
@@ -203,10 +203,16 @@
         "Local": "memory-hungry"
       },
       "name": "memory-hungry (local)",
-      "res": "skipped",
+      "res": "error",
       "runs": [
-        null,
-        null
+        {
+          "log": "stable/local/memory-hungry",
+          "res": "error"
+        },
+        {
+          "log": "beta/local/memory-hungry",
+          "res": "error"
+        }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/memory-hungry"
     },
@@ -215,15 +221,15 @@
         "Local": "missing-examples"
       },
       "name": "missing-examples (local)",
-      "res": "test-pass",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/missing-examples",
-          "res": "test-pass"
+          "res": "error"
         },
         {
           "log": "beta/local/missing-examples",
-          "res": "test-pass"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/missing-examples"
@@ -233,15 +239,15 @@
         "Local": "network-access"
       },
       "name": "network-access (local)",
-      "res": "fixed",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/network-access",
-          "res": "build-fail:unknown"
+          "res": "error"
         },
         {
           "log": "beta/local/network-access",
-          "res": "test-fail:unknown"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/network-access"
@@ -251,15 +257,15 @@
         "Local": "outdated-lockfile"
       },
       "name": "outdated-lockfile (local)",
-      "res": "test-pass",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/outdated-lockfile",
-          "res": "test-pass"
+          "res": "error"
         },
         {
           "log": "beta/local/outdated-lockfile",
-          "res": "test-pass"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/outdated-lockfile"
@@ -269,15 +275,15 @@
         "Local": "test-fail"
       },
       "name": "test-fail (local)",
-      "res": "test-fail",
+      "res": "error",
       "runs": [
         {
           "log": "stable/local/test-fail",
-          "res": "test-fail:unknown"
+          "res": "error"
         },
         {
           "log": "beta/local/test-fail",
-          "res": "test-fail:unknown"
+          "res": "error"
         }
       ],
       "url": "https://github.com/rust-lang/crater/tree/master/local-crates/test-fail"
