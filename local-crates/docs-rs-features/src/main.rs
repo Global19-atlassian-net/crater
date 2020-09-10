@@ -1,4 +1,4 @@
-#[cfg(any(doc, feature = "docs_rs_feature"))]
+#[cfg(feature = "docs_rs_feature")]
 compile_error!("oh no, a hidden regression!");
 
 fn main() {
