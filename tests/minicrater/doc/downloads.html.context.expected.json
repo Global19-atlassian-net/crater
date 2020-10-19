@@ -5,8 +5,8 @@
       "path": "logs-archives/all.tar.gz"
     },
     {
-      "name": "test-pass crates",
-      "path": "logs-archives/test-pass.tar.gz"
+      "name": "error crates",
+      "path": "logs-archives/error.tar.gz"
     }
   ],
   "crates_count": 2,

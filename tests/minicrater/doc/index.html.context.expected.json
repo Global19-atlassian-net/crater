@@ -1,12 +1,12 @@
 {
   "categories": [
     [
-      "test-pass",
+      "error",
       {
         "Plain": [
           {
             "name": "build-pass (local)",
-            "res": "test-pass",
+            "res": "error",
             "runs": [
               {
                 "log": "stable/local/build-pass",
@@ -20,42 +20,42 @@
             "url": "https://github.com/rust-lang/crater/tree/master/local-crates/build-pass"
           },
           {
-            "name": "memory-hungry (local)",
-            "res": "test-pass",
+            "name": "docs-rs-features (local)",
+            "res": "error",
             "runs": [
               {
-                "log": "stable/local/memory-hungry",
+                "log": "stable/local/docs-rs-features",
                 "res": 0
               },
               {
-                "log": "beta/local/memory-hungry",
+                "log": "beta/local/docs-rs-features",
                 "res": 0
               }
             ],
-            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/memory-hungry"
+            "url": "https://github.com/rust-lang/crater/tree/master/local-crates/docs-rs-features"
           }
         ]
       }
     ]
   ],
   "comparison_colors": {
-    "test-pass": {
-      "Single": "#72a156"
+    "error": {
+      "Single": "#d77026"
     }
   },
   "crates_count": 2,
-  "full": true,
+  "full": false,
   "info": {
-    "test-pass": 2
+    "error": 2
   },
   "nav": [
     {
-      "active": false,
+      "active": true,
       "label": "Summary",
       "url": "index.html"
     },
     {
-      "active": true,
+      "active": false,
       "label": "Full report",
       "url": "full.html"
     },
@@ -67,10 +67,10 @@
   ],
   "result_colors": [
     {
-      "Single": "#62a156"
+      "Single": "#d77026"
     }
   ],
   "result_names": [
-    "test passed"
+    "error"
   ]
 }
